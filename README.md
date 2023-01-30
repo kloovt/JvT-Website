@@ -1,4 +1,4 @@
-# Website
+# JvT-Website
 This is the code for my website.
 I'm making it to get some frontend practice.
 
