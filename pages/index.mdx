@@ -6,13 +6,16 @@ date: 2023-01-30
 
 # Homepage
 
+import LinkStatus from "../components/LinkStatus";
+
 Hello visitor, welcome to my homepage.
 I'm getting some frontend practice by building this page.
 
-The links below are a couple of the services that are on my server.
+The links below are a couple of the services that are on my server with a status indicator. Some of these services can be accessed with an account in my KeyCloak realm.
 
 ---
 
-- LinkedIn [Jorrit van Triest](https://www.linkedin.com/in/jorrit-van-triest-699b43175)
-- GitHub [@kloovt](https://github.com/kloovt)
+- <div> <LinkStatus link="https://nc.jorritvtriest.nl" /> </div>
+- <div> <LinkStatus link="https://jelly.jorritvtriest.nl" /> </div>
+- <div> <LinkStatus link="mc.jorritvtriest.nl" /> </div>
 - Email contact@jorritvtriest.nl
